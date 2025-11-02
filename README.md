@@ -1,19 +1,48 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🔐 Random Password Generator
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple and stylish **Password Generator** built with **HTML, CSS, and JavaScript**.  
+It allows users to generate two random secure passwords instantly with one click.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 🧩 Features
 
-Happy Coding!
+- Generates two random passwords at once  
+- Includes uppercase, lowercase, numbers, and special symbols  
+- Responsive and modern dark UI design  
+- Hover effects and interactive button  
+- Fast and lightweight — runs entirely in the browser  
+
+## 🛠️ Built With
+
+- **HTML5** — structure and layout  
+- **CSS3** — modern styling and design  
+- **JavaScript (ES6)** — logic for generating random passwords  
+
+
+## 📂 Project Structure
+
+password-generator/
+│
+├── index.html # Main HTML file
+├── index.css # Styling
+└── index.js # JavaScript logic
+
+
+---
+
+## 🧠 How It Works
+
+1. Click the **"Generate Password"** button.  
+2. JavaScript selects random characters from an array of letters, numbers, and symbols.  
+3. Two passwords are displayed in separate boxes.  
+
+---
+
+## ⚡ Example Code Snippet
+
+```js
+function getRandomChar() {
+  let randomNumber = Math.floor(Math.random() * characters.length)
+  return characters[randomNumber]
+}
+
