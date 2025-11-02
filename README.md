@@ -45,6 +45,7 @@ function getRandomChar() {
   let randomNumber = Math.floor(Math.random() * characters.length)
   return characters[randomNumber]
 }
+```
 
 
 ![Alt text](./screenshots/screenshot_a.jpeg)
