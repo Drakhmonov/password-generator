@@ -46,3 +46,6 @@ function getRandomChar() {
   return characters[randomNumber]
 }
 
+
+![Alt text](./screenshots/screenshot_a.jpeg)
+![Alt text](./screenshots/screenshot_b.jpeg)
