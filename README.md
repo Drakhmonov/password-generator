@@ -46,6 +46,3 @@ function getRandomChar() {
   return characters[randomNumber]
 }
 
-<img width="1164" height="836" alt="image" src="https://github.com/user-attachments/assets/2b279ff8-d298-4ae2-bcc9-bb2b89a4ce72" />
-
-
