@@ -28,6 +28,7 @@ password-generator/
 └── index.js # JavaScript logic
 
 
+
 ---
 
 ## 🧠 How It Works
@@ -50,3 +51,8 @@ function getRandomChar() {
 
 ![Alt text](./screenshots/screenshot_a.jpeg)
 ![Alt text](./screenshots/screenshot_b.jpeg)
+
+---
+
+As it is an open source you can download it and make changes for yourself.
+Enjoy coding!
