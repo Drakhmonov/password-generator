@@ -27,8 +27,6 @@ password-generator/
 ├── index.css # Styling
 └── index.js # JavaScript logic
 
-
-
 ---
 
 ## 🧠 How It Works
